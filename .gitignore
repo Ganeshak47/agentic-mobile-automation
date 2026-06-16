@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+generated/
+screenshots/
+report.html
+allure-results/
+apps/*.apk
+.DS_Store
