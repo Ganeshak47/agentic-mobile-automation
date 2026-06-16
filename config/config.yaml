@@ -1,0 +1,17 @@
+# Appium desired capabilities and framework settings
+appium:
+  platformName: Android
+  automationName: UiAutomator2
+  newCommandTimeout: 300
+  autoGrantPermissions: true
+  noReset: false
+
+framework:
+  implicit_wait: 10
+  screenshot_on_failure: true
+  self_healing: true          # let the agent recover broken locators at runtime
+  max_heal_attempts: 2
+
+agent:
+  temperature: 0.0
+  max_tokens: 2000
